@@ -10,9 +10,9 @@ Cenário de teste: Cadastro de usuário administrador
   Passo 2 - Digitar Email
   Passo 3 - Digite Senha
   Passo 4 - Clicar no botão Entrar
-  
-  Passo 1 - Clicar o botão cadastrar 
-  Passo 2 - Clicar no botão Diretorias aparece a lista
+  Passo 1 - Clicar no botão cadastrar
+ # Passo 2 - Clicar no botão Logout
+  Passo 3 - Clicar no botão Diretorias aparece a lista
   
 
 

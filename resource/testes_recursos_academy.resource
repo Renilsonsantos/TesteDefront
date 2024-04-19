@@ -9,6 +9,7 @@ ${emailInput}           //input[contains(@type,'text')]
 ${passworInput}         //input[contains(@type,'password')]
 ${buttonEntra}         //button[@class='MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedOrange MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-root MuiButton-contained MuiButton-containedOrange MuiButton-sizeMedium MuiButton-containedSizeMedium css-ojf4v2'][contains(.,'Entrar')]
 ${spanCadastros}       //span[contains(.,'Cadastros')]
+${buttonLogout}         //button[@class='css-1nvbq2d'][contains(.,'Logout')]
 ${DiretoriaButton}     //span[contains(.,'Diretorias')]
 ${novocadastro}        //button[contains(.,'Novo Cadastro')]
 
@@ -39,13 +40,18 @@ Passo 3 - Digite Senha
   Sleep    1s
 
    
- Passo 1- Clicar o botão cadastrar
+ Passo 1- Clicar no botão cadastrar
   Wait Until Element Is Visible       locator=${spanCadastros} 
   Click Element                       locator=${spanCadastros} 
-  Sleep   2s                 
+  Sleep   2s 
+
+ Passo 2 - Clicar no botão Logout 
+  Wait Until Element Is Visible       locator= ${buttonLogout} 
+  Click Button                        locator=${buttonLogout}
+  Sleep    1s                 
 
 
-Passo 2 - Clicar no botão Diretorias aparece a lista
+Passo 3 - Clicar no botão Diretorias aparece a lista
    Wait Until Element Is Visible      locator=${DiretoriaButton}
    Click Element                      locator=${DiretoriaButton}
    Sleep    3s
