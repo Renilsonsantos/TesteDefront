@@ -1,6 +1,6 @@
 
 
-# projeto de automação QA Coder-Acadmy, T11
+# Projeto de automação QA Coder-Acadmy, T11
 
 ## Tecnologia
 - Python
