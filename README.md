@@ -13,5 +13,8 @@
 - Extensão TruePath.mkv 
 
 ## Time:
+- Qualitys Hunters
+  
+## Participante:
 - Renilson
 - Naracyntiam
