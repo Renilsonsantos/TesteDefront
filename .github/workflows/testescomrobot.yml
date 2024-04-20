@@ -8,6 +8,14 @@ jobs:
     name: teste de front
     runs-on: windows-latest
 
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: https://Renilsonsantos.github.io/TesteDefront/report.html
+
     steps:
       - name: clone do projeto
         uses: actions/checkout@v4
@@ -33,4 +41,18 @@ jobs:
         if: always()
         with:
           name: resultado-testes
-          path: results/  
+          path: results/ 
+
+      - name: configurar site
+        uses: actions/configure-pages@v2
+ 
+      - name: Carregamento arquivo de testes
+        uses: actions/upload-pages-artifact@v1
+        with:
+          path: results/
+ 
+      - name: Deploy dos testes
+        id: deployment
+        uses: actions/deploy-pages@v1 
+
+        
