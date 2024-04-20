@@ -1,0 +1,11 @@
+name: TesteFrontEnd com Robot
+
+on: push
+
+jobs: 
+  test:
+    runs-on: windows-latest
+
+    steps:
+      -name: clone do projeto
+       uses: actions/checkout@v4
