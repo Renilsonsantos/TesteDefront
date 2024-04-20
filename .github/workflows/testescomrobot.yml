@@ -3,7 +3,9 @@ name: TesteFrontEnd com Robot
 on: push
 
 jobs: 
+  
   test:
+    name: teste de front
     runs-on: windows-latest
 
     steps:
@@ -14,3 +16,14 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: '3.12'
+
+      - name: Instalação de dependência
+        # run: echo Instalação das depedências do Projeto
+        run: |
+          pip install robotframework-seleniumlibrary
+ 
+      - name: rodando os testes
+        # run: echo Executando os testes de API do Robot
+        run: |
+          robot --name "API and Web Tests" --outputdir results/ tests/
+          
