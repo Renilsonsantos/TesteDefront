@@ -7,5 +7,5 @@ jobs:
     runs-on: windows-latest
 
     steps:
-      -name: clone do projeto
-       uses: actions/checkout@v4
+      - name: clone do projeto
+        uses: actions/checkout@v4
