@@ -41,17 +41,19 @@ Passo 3 - Digite Senha
 
    
  Passo 1- Clicar no botão cadastrar
+  Capture Page Screenshot
   Wait Until Element Is Visible       locator=${spanCadastros} 
   Click Element                       locator=${spanCadastros} 
-  Sleep   2s 
+  Sleep   1s 
 
- Passo 2 - Clicar no botão Logout 
-  Wait Until Element Is Visible       locator= ${buttonLogout} 
+ Passo 3 - Clicar no botão Logout 
+  Wait Until Element Is Visible       locator=${buttonLogout} 
   Click Button                        locator=${buttonLogout}
   Sleep    1s                 
 
 
-Passo 3 - Clicar no botão Diretorias aparece a lista
+Passo 2 - Clicar no botão Diretorias aparece a lista 
+   Capture Page Screenshot
    Wait Until Element Is Visible      locator=${DiretoriaButton}
    Click Element                      locator=${DiretoriaButton}
    Sleep    3s
