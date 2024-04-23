@@ -15,7 +15,7 @@
 - WebDriver Chrome
 - Extensão TruePath.mkv 
 
-## Time:
+## Squad:
 - Qualitys Hunters
   
 ## Participante:
