@@ -17,9 +17,12 @@
 
 ## Squad:
 - Qualitys Hunters
-  
+- 
+## Tech lead
+- Cleberson
+   
 ## Participante:
 - Renilson
 - Naracyntiam
-- Cleberson
+
 >>>>>>> b651fdd426e38d30c40ecfa619909c614f943621
