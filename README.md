@@ -1,6 +1,4 @@
-<<<<<<< HEAD
-<h1>Progeto de automação com front End<\h1>
-=======
+
 
 
 # Projeto de automação QA Coder-Academy, T11
