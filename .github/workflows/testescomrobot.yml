@@ -49,7 +49,7 @@ jobs:
         id-token: write
     environment:
         name: github-pages
-        url: https://Renilsonsantos.github.io/TesteDefront/report.html
+        url: https://Renilsonsantos.github.io/Testes-de-frontend-com-Robot-Quality-Hunter-academy-front-robot/report.html
 
     steps:
       - name: Setup Pages
