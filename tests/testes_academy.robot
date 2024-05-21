@@ -13,7 +13,7 @@ Cenário de teste: Cadastro de usuário administrador
 
   Passo 1 - Clicar no botão cadastrar
   Passo 2 - Clicar no botão Diretorias aparece a lista
-  #Passo 3 - Clicar no botão Logout
+  Passo 3 - Clicar no botão Logout
   
 
 
