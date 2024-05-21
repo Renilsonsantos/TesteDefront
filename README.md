@@ -1,6 +1,4 @@
-<<<<<<< HEAD
-<h1>Progeto de automação com front End<\h1>
-=======
+
 
 
 # Projeto de automação QA Coder-Academy, T11
@@ -15,11 +13,14 @@
 - WebDriver Chrome
 - Extensão TruePath.mkv 
 
-## Time:
+## Squad:
 - Qualitys Hunters
-  
+- 
+## Tech lead
+- Cleberson
+   
 ## Participante:
 - Renilson
 - Naracyntiam
-- Cleberson
+
 >>>>>>> b651fdd426e38d30c40ecfa619909c614f943621
